@@ -1,0 +1,20 @@
+/**
+ * Represents the parameter type of a batch job method and contains the batch job ID. This interface is implemented internally by Apex.
+ */
+global interface BatchableContext {
+    virtual Boolean equals(Object arg0);
+
+    /**
+     * Returns the ID of the current batch job chunk that is being processed.
+     */
+    abstract Id getChildJobId();
+
+    /**
+     * Returns the batch job ID.
+     */
+    abstract Id getJobId();
+
+    virtual Integer hashCode();
+
+    virtual String toString();
+}

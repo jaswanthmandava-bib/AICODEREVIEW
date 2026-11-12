@@ -1,0 +1,7 @@
+global enum TokenType {
+    DATACLOUDID,
+    EMAIL,
+    STANDARD,
+    UNIFIEDCONTACTPOINTID
+
+}
