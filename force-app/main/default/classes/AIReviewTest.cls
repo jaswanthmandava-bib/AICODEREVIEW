@@ -28,5 +28,5 @@ public without sharing class AIReviewTest {
             // ISSUE 6: No exception handling
             Integer result = 10 / 0;
         }
-    }
+    }  
 }
